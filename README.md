@@ -1,18 +1,11 @@
 
-# Práctica: Metodos Ordenamiento
+# Universidad Politecnica Salesiana
 
-## Datos del Estudiante
-- **Nombre:** Juan David Coronel Palacios
-- **Curso:** Estructura de datos
-- **Fecha:** 20/04/2026
+## Estrucura de datos
+## Estudiante: Juan David Coronel Palacios
 
----
+## Practica 1.1 Metodo Burbuja
+### Fecha: 20/04/2026
+### Descripcion
 
-## 1. icc-est-u4-metodosOrdenamiento
-![Descripción de la captura](assets/02-captura-ejemplo.png)
-
-**Fecha:**
-
-**Descripción:** [Explicar qué muestra esta captura o que desarrollo en clases]
-
----
+Cree la clase `MetodoBurbuja` que implementametodo de ordenamiento ascendente, descendente y un metodo para imprimir. Con constructor que instancia una variable global.
