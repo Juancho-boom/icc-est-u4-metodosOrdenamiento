@@ -31,13 +31,14 @@ public class MetodoBurbujaAvanzado {
                         contCambios++;
                         huboIntercambios = true;
                         int auxi =arreglo[j];
-                        arreglo[ j] = arreglo[j+1];
+                        arreglo[j] = arreglo[j+1];
                         arreglo[j+1] = auxi;
                     }
+                    if (!huboIntercambios){
+                        break;
+                    }
                 }
-                if (!huboIntercambios){
-                    break;
-                }
+                
                 
             } 
         }
