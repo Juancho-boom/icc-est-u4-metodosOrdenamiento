@@ -1,6 +1,7 @@
 public class App {
     public static void main(String[] args) throws Exception {
         metodoBurbuja();
+        MetodoBurbujaAvanzado();
     }
 
     public static void metodoBurbuja() {
@@ -12,5 +13,16 @@ public class App {
         metodoBurbuja.imprimirArreglo();
         metodoBurbuja.oredenarDesendente();
         metodoBurbuja.imprimirArreglo();
+    }
+
+        public static void MetodoBurbujaAvanzado() {
+            int[] arreglo = new int[]{50,5,20,30,0,-10,15};
+            // 1ro instanciar la clase
+            MetodoBurbujaAvanzado mBurbujaAvanzado = new MetodoBurbujaAvanzado(arreglo);
+            mBurbujaAvanzado.printArreglo();
+            mBurbujaAvanzado.sort(true);
+            mBurbujaAvanzado.printArreglo();
+            mBurbujaAvanzado.sort(false);
+            mBurbujaAvanzado.printArreglo();
     }
 }
